@@ -1,6 +1,8 @@
 {
     "name": "jenhacool/repository",
     "description": "Simple repository package for Laravel",
+    "homepage": "https://github.com/jenhacool/repository",
+    "license": "MIT",
     "authors": [
         {
             "name": "Tien Nguyen",
@@ -28,11 +30,12 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jenhacool\\Repository\\Providers\\RepositoryServiceProvider"
+                "Jenhacool\\Repository\\RepositoryServiceProvider"
             ]
         }
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "minimum-stability": "stable"
 }
