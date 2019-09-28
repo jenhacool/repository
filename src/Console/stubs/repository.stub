@@ -1,0 +1,11 @@
+<?php
+
+namespace DummyNamespace;
+
+use Jenhacool\Repository\AbstractRepository;
+use App\DummyModel;
+
+class DummyClass extends AbstractRepository
+{
+    protected $model = DummyModel::class;
+}
