@@ -5,7 +5,7 @@ Simple package used to abstract the data layer
 ## Install
 
 ```terminal
-composer require/jenhacool/repository
+composer require jenhacool/repository
 ```
 
 ## Generator
